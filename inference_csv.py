@@ -328,7 +328,6 @@ def main(args):
     # preprocess df 
     print("Preprocessing the data")
     # add CDR3b column and empty data if there are no CDR3b
-    df["CDR3b"] =""
     if "CDR3b" not in df.columns:
         df["CDR3b"] =""
     if "task" not in df.columns:
